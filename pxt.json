@@ -1,0 +1,26 @@
+{
+    "name": "YFIR",
+    "version": "0.0.2",
+    "description": "YFROBOT's IR receive Module makecode library",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh-cn/YFIR-strings.json",
+        "_locales/zh-cn/YFIR-jsdoc-strings.json",
+        "_locales/zh-tw/YFIR-strings.json",
+        "_locales/zh-tw/YFIR-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
